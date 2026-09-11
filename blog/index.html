@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 </head>
-<body>
-    
+<body class=" bg-yellow-300 min-h-screen  justify-center flex flex-col items-center font-['Figtree']">
+
+
+    <div class="bg-white p-5 rounded-xl shadow-[6px_5px_1px_1px_#000000] md:max-w-[330px] md:border-2 border-black">
+        <img class="rounded-md" src= "images\illustration-article.svg" alt="Illustration image article">
+
+        <h1 class="w-fit bg-yellow-300 px-4 py-1 m-3 rounded-md text-md font-bold">Learning</h1>
+        <p class="m-3 text-sm font-medium">Published 21 Dec 2023</p>
+
+        <h2 class="m-3 font-bold text-lg font-extrabold"><a class="text-slate-900 hover:text-yellow-500" href="#">HTML & CSS foundations</a></h2>
+        <p class="m-3 text-md text-left text-gray-500">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+
+        <!--Avatar img and usersname-->
+        <div class="flex p-3"> 
+            <img class="size-10" src="images/image-avatar.webp" alt="avatar image">
+            <p class="font-bold m-3 p-1">Greg Hooper</p>
+        </div>
+       
+    </div>
 </body>
 </html>
+
